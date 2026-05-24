@@ -8,3 +8,4 @@
 1. Схему для настройки проекта LabelStudio
 2. Инструкцию по разметке изображений в LabelStudio
 3. Результаты экспорта LabelSudio
+4. Ссылка на проект https://monzikov.ru/user/signup/?token=dNvDrcIwCy3gCCd5i4YY75BoooaxOGjmYVyTUjtg

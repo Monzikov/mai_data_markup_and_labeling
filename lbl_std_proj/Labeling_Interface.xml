@@ -1,0 +1,18 @@
+<View>
+  <Header value="Рег.знак [1] -&gt; Самокат [2] -&gt; Повреждения рег.знака [3] -&gt; Поломка самоката [4]"/>
+  <View style="display:flex;align-items:start;gap:8px;flex-direction:row">
+	  	<RectangleLabels name="layer" toName="image" showInline="true" strokeWidth="3">
+          <Label value="Registration Number" background="#0084ff" maxUsages="1" zIndex="100"/>
+          <Label value="Scooter" background="#00ff1e" maxUsages="1" hint="Самокат" zIndex="1"/>	
+    	</RectangleLabels>
+    	<Choices name="has_damage" toName="image" choice="multiple" showInline="true">
+                <Choice value="Registraion number has defect"/>
+          		<Choice value="Scooter has damage"/>
+        </Choices>
+  </View>
+  <Image name="image" value="$images" zoom="true" zoomControl="true" rotateControl="false"/>
+    <Header value="Нажимай [1] - обводи регистрационный знак"/>
+  	<Header value="Нажимай [2] - обводи самокат"/>
+  	<Header value="Нажимай [3] - когда знак поврежден"/> 
+  	<Header value="Нажимай [4] - если самокат сломан"/> 
+</View>
